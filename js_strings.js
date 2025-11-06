@@ -22,9 +22,9 @@ else {
     console.log("Does not start with A");
 }*/
 //replace 'sad' with 'happy'
-let str1 = "I am sad today";
-let str2 = str1.replace("sad", "happy");
-console.log(str2)
+//let str1 = "I am sad today";
+//let str2 = str1.replace("sad", "happy");
+//console.log(str2)
 
 //checks if string includes symbol @
 if (str.includes("@")){
