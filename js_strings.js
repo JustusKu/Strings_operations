@@ -12,24 +12,31 @@ else if (str === str.toLowerCase()){
 //check if string is mixed
 else{
     console.log("Mixed");
-}
+}*/
 
-//checks if the string starts with letter 'A'
+/*//checks if the string starts with letter 'A'
 if (str.startsWith("A")){
     console.log("Starts with A");
 }
 else {
     console.log("Does not start with A");
 }*/
-//replace 'sad' with 'happy'
-//let str1 = "I am sad today";
-//let str2 = str1.replace("sad", "happy");
-//console.log(str2)
+   /*//replace 'sad' with 'happy'
+let str1 = "I am sad today";
+let str2 = str1.replace("sad", "happy");
+console.log(str2)*/
 
-//checks if string includes symbol @
-if (str.includes("@")){
+/*//checks if string includes symbol @
+if (str.includes("@", ".")){
     console.log("Valid email");
 }
 else{
     console.log("Invalid email");
+}*/
+//checks if strings is a question
+if (str.endsWith("?")){
+    console.log("This is a question");
+}
+else{
+    console.log("Not a question");
 }
