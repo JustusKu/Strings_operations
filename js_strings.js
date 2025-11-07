@@ -41,10 +41,20 @@ else{
     console.log("Not a question");
 }*/
 //getting last 3 digits
-let num = str.slice(-3);
+/*let num = str.slice(-3);
 //replacing rest of numbers
 let num2 = "*".repeat(str.length-3) + num;
-console.log(num2)
+console.log(num2)*/
+//middle character
+let middle = Math.floor(str.length/2);
+//return 2 middle characters
+if(str.length%2 === 0){
+    console.log(str.slice(middle -1, middle +1));
+}
+//return 1 character
+else{
+    console.log(str.charAt(middle))
+}
 
 
 
