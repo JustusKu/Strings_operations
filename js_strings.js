@@ -34,9 +34,17 @@ else{
     console.log("Invalid email");
 }*/
 //checks if strings is a question
-if (str.endsWith("?")){
+/*if (str.endsWith("?")){
     console.log("This is a question");
 }
 else{
     console.log("Not a question");
-}
+}*/
+//getting last 3 digits
+let num = str.slice(-3);
+//replacing rest of numbers
+let num2 = "*".repeat(str.length-3) + num;
+console.log(num2)
+
+
+
