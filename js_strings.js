@@ -1,4 +1,4 @@
-//create variable and prompt a string
+//1. create variable and prompt a string
 let str = prompt("Enter a string");
 //console.log(str);
 //check if string is UPPERCASE
@@ -14,38 +14,38 @@ else{
     console.log("Mixed");
 }*/
 
-/*//checks if the string starts with letter 'A'
+/*//2. checks if the string starts with letter 'A'
 if (str.startsWith("A")){
     console.log("Starts with A");
 }
 else {
     console.log("Does not start with A");
 }*/
-   /*//replace 'sad' with 'happy'
+   /*//3. replace 'sad' with 'happy'
 let str1 = "I am sad today";
 let str2 = str1.replace("sad", "happy");
 console.log(str2)*/
 
-/*//checks if string includes symbol @
+/*//4. checks if string includes symbol @
 if (str.includes("@", ".")){
     console.log("Valid email");
 }
 else{
     console.log("Invalid email");
 }*/
-//checks if strings is a question
+//5. checks if strings is a question
 /*if (str.endsWith("?")){
     console.log("This is a question");
 }
 else{
     console.log("Not a question");
 }*/
-//getting last 3 digits
+//6. getting last 3 digits
 /*let num = str.slice(-3);
 //replacing rest of numbers
 let num2 = "*".repeat(str.length-3) + num;
 console.log(num2)*/
-//middle character
+//7. middle character
 /*let middle = Math.floor(str.length/2);
 //return 2 middle characters
 if(str.length%2 === 0){
@@ -55,7 +55,7 @@ if(str.length%2 === 0){
 else{
     console.log(str.charAt(middle));
 }*/
-/*//compare 2 strings
+/*//8. compare 2 strings
 let str3 = prompt("Enter a string2");
 //convert to lowercase
 if (str.toLowerCase()=== str3.toLowerCase()){
@@ -64,7 +64,7 @@ if (str.toLowerCase()=== str3.toLowerCase()){
 else{
     console.log("Not a match");
 }*/
-//checking dot include
+//9. checking dot include
 /*if (str.includes("dumb")){
     let filteredtWord = str.replace("dumb", "***");
     console.log("Inappropriate word filtered");
@@ -73,11 +73,11 @@ else{
 else{
     console.log("Clean sentence");
 }*/
-//getting last index space
+/*//10. getting last index space
 let space = str.lastIndexOf(" ");
 //extract last word
 let lastWord = str.slice(space +1);
-console.log("Last word is:", lastWord);
+console.log("Last word is:", lastWord);*/
 
 
 
