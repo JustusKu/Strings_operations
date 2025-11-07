@@ -46,14 +46,22 @@ else{
 let num2 = "*".repeat(str.length-3) + num;
 console.log(num2)*/
 //middle character
-let middle = Math.floor(str.length/2);
+/*let middle = Math.floor(str.length/2);
 //return 2 middle characters
 if(str.length%2 === 0){
     console.log(str.slice(middle -1, middle +1));
 }
 //return 1 character
 else{
-    console.log(str.charAt(middle))
+    console.log(str.charAt(middle));
+}*/
+//compare 2 strings
+let str3 = prompt("Enter a string2");
+if (str.toLowerCase()=== str3.toLowerCase()){
+    console.log("Match");
+}
+else{
+    console.log("Not a match");
 }
 
 
