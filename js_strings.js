@@ -65,14 +65,19 @@ else{
     console.log("Not a match");
 }*/
 //checking dot include
-if (str.includes("dumb")){
+/*if (str.includes("dumb")){
     let filteredtWord = str.replace("dumb", "***");
     console.log("Inappropriate word filtered");
     console.log(filteredtWord);
 }
 else{
     console.log("Clean sentence");
-}
+}*/
+//getting last index space
+let space = str.lastIndexOf(" ");
+//extract last word
+let lastWord = str.slice(space +1);
+console.log("Last word is:", lastWord);
 
 
 
