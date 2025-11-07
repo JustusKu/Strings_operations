@@ -55,14 +55,26 @@ if(str.length%2 === 0){
 else{
     console.log(str.charAt(middle));
 }*/
-//compare 2 strings
+/*//compare 2 strings
 let str3 = prompt("Enter a string2");
+//convert to lowercase
 if (str.toLowerCase()=== str3.toLowerCase()){
     console.log("Match");
 }
 else{
     console.log("Not a match");
+}*/
+//checking dot include
+if (str.includes("dumb")){
+    let filteredtWord = str.replace("dumb", "***");
+    console.log("Inappropriate word filtered");
+    console.log(filteredtWord);
 }
+else{
+    console.log("Clean sentence");
+}
+
+
 
 
 
